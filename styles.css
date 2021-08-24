@@ -1,13 +1,15 @@
 body {
   text-align: center;
   background-color: rgba(91,138,238,.9);
+
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 8vw;
   color: #edf1f2;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 rgb(206,92,78);
+  text-shadow: 3px 0  9px rgb(0,0,0);
+  text-align:center;
 
 }
 
@@ -17,31 +19,44 @@ footer {
 }
 
 .w {
+  grid-area:one;
   background-image: url("images/tom1.png");
 }
 
 .a {
+  grid-area:two;
   background-image: url("images/tom2.png");
 }
 
 .s {
+  grid-area:three;
   background-image: url("images/tom3.png");
 }
 
 .d {
+  grid-area:four;
   background-image: url("images/tom4.png");
 }
 
 .j {
+  grid-area:five;
   background-image: url("images/snare.png");
 }
 
 .k {
+  grid-area:six;
   background-image: url("images/crash.png");
 }
 
 .l {
+  grid-area:seven;
   background-image: url("images/kick.png");
+}
+
+
+.container {
+  width: 100%;
+  margin: auto;
 }
 
 .set {
@@ -61,17 +76,28 @@ footer {
 .drum {
   outline: none;
   border: 7px solid #404B69;
-  font-size: 5rem;
+  font-size: 8rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: rgb(76,159,102);
+  color: rgb(208,55,42);
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   text-align: center;
   margin: 10px;
   background-color: rgb(274,208,95);
+}
+
+/* ||||||||||||||||||||||||||| Media Breaks ||||||||||||||||||||||| */
+
+
+
+@media (max-width:800px) {
+  h1 {
+    font-size: 8vw;
+
+  }
 }
