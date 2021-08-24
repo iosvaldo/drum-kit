@@ -19,37 +19,30 @@ footer {
 }
 
 .w {
-  grid-area:one;
   background-image: url("images/tom1.png");
 }
 
 .a {
-  grid-area:two;
   background-image: url("images/tom2.png");
 }
 
 .s {
-  grid-area:three;
   background-image: url("images/tom3.png");
 }
 
 .d {
-  grid-area:four;
   background-image: url("images/tom4.png");
 }
 
 .j {
-  grid-area:five;
   background-image: url("images/snare.png");
 }
 
 .k {
-  grid-area:six;
   background-image: url("images/crash.png");
 }
 
 .l {
-  grid-area:seven;
   background-image: url("images/kick.png");
 }
 
@@ -89,15 +82,4 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: rgb(274,208,95);
-}
-
-/* ||||||||||||||||||||||||||| Media Breaks ||||||||||||||||||||||| */
-
-
-
-@media (max-width:800px) {
-  h1 {
-    font-size: 8vw;
-
-  }
 }
