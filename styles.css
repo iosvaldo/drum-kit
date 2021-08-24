@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: rgba(91,138,238,.9);
+  background-color: ;
+  background-image: linear-gradient(to bottom right, rgba(91,138,238,.9),orange);
 
 }
 
@@ -16,6 +17,7 @@ h1 {
 footer {
   color: #edf1f2;
   font-family: sans-serif;
+
 }
 
 .w {
@@ -82,4 +84,67 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: rgb(274,208,95);
+}
+
+/* ||||||||||||||||||||||||||| Media Breaks ||||||||||||||||||||||| */
+
+
+
+@media (max-width:420px) {
+  .drum {
+    outline: none;
+    border: 4px solid #404B69;
+    font-size: 3rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: rgb(208,55,42);
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(274,208,95);
+  }
+
+  .w {
+    background-size: 100px 100px;
+    background-image: url("images/tom1.png");
+  }
+
+  .a {
+    background-size: 100px 100px;
+    background-image: url("images/tom2.png");
+  }
+
+  .s {
+    background-size: 100px 100px;
+    background-image: url("images/tom3.png");
+  }
+
+  .d {
+    background-size: 100px 100px;
+    background-image: url("images/tom4.png");
+  }
+
+  .j {
+    background-size: 100px 100px;
+    background-image: url("images/snare.png");
+  }
+
+  .k {
+    background-size: 100px 100px;
+    background-image: url("images/crash.png");
+  }
+
+  .l {
+    background-size: 100px 100px;
+    background-image: url("images/kick.png");
+  }
+
+  body {
+     background-image: linear-gradient(to bottom right, purple,rgba(104,221,190,.9));
+  }
 }
